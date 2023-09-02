@@ -1,0 +1,292 @@
+.head{
+  display:flex;
+}
+.headnav{
+  position: relative;
+  left:650px;
+  margin-top: 10px;
+  
+}
+
+.nav-item{
+  margin-left:12px;
+}
+#searchicon{
+  height:50px;
+  width:60px;
+}
+#menuicon{
+  display:none;
+}
+#logo{
+height:50px;width:150px;
+}
+.assets{
+  display:flex;
+  margin-bottom:0px !important;
+  
+}
+hr{
+  margin:0px;
+}
+#homeicon{
+  height:20px;
+  width:20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.hometext{
+  color:blue;
+}
+.exploreassets{
+  display:flex;
+}
+.filterpart{
+  display:flex;
+}
+#exploretext{
+  font-size: 20px;
+  margin-left:20px;
+}
+.dropdown-toggle{
+  border-color: black;
+  padding:0px;
+
+}
+#blockicon{
+  height:20px;
+  width:20px;
+  margin-left:20px;
+  margin-top:10px;
+}
+#listicon{
+  height:40px;
+  width:40px;
+  margin-left:20px;
+}
+.dropdown{
+  margin-left: 850px;
+  margin-top:8px;
+}
+.mainhead{
+  font-size:18px;margin-left:70px;
+}
+
+.cardcol{
+  display: flex;width:1130px;margin:auto;
+}
+.card-img-top{
+  width:200px;height:150px;
+}
+
+.card{
+  width:200px;border:none;margin-right:20px;
+}
+
+.card-title{
+  margin-top:10px;margin-bottom:10px;font-size:15px;
+}
+.card-text{
+  font-size:15px;width:300px;
+}
+.card-body{
+  width:200px;margin-left:-20px;
+}
+.icon{
+  height:20px;
+  width:20px;
+  margin-right:20px;
+}
+.foot{
+  background-color:rgb(115, 190, 217);
+  color:white;
+  display:flex;
+  width:100%;
+  margin:0 auto;
+}
+.aboutus{
+  width:70px;
+  margin:15px auto;
+}
+.policy{
+  width:100px;
+  margin:15px auto;
+}
+.footerlogo{
+  width:400px;
+  margin:0 auto;
+  
+}
+#footerlogo{
+  height:50px;
+}
+#footerlogodup{
+  display:none;
+}
+.footlast{
+  width:250px;
+  margin:15px auto;
+}
+.endsection{
+background-color:rgb(122, 199, 201);
+width:100%;
+
+}
+#endsectionnote{
+  color: white;
+  position:relative;
+  margin-left:1080px;
+  
+
+}
+
+
+@media only screen and (max-width: 700px)
+{
+  #logo{
+    margin-left:-8px;
+  }
+  .headnav{
+    display:none;
+  }
+  #menuicon{
+    display:flex !important;
+    height:20px;
+    width:20px;
+    margin-top:15px;
+    position:absolute;
+    right:20px;
+  }
+  .hometext{
+    margin-top:3px;
+  }
+  #exploretext{
+    width:200px;
+    font-size:16px;
+    margin-bottom:0px;
+    margin-top:5px;
+    
+  }
+  .exploretext{
+    width:200px;
+  }
+  .exploreassets{
+    display:block;
+    width:100%;
+  }
+  .dropdown{
+    margin-left:20px !important;
+  }
+  .mainhead{
+    margin-left:20px;
+  }
+  .card{
+    width:160px;
+    margin-left:10px;
+    
+  }
+  .cardcol{
+    width:100%;
+    overflow: hidden;
+  }
+  .card-img-top{
+    width:150px;
+    margin-left:10px;
+  }
+  .card-body {
+    width:160px;margin-left:-3px;
+  }
+  .card-text
+  {
+    width:160px;
+    font-size:12px;
+  }
+  .card-title
+  {
+    width:150px;
+    
+  }
+  .foot{
+    display:inline-block;
+  margin-left:0px !important;
+  padding-left:0px !important;
+}
+  #footerlogo{
+    display:none;
+  }
+  .aboutus{
+    margin-left:20px !important;
+    display:flex;
+    width:100px!important;
+    
+  }
+  #aboutus{
+    width:100px !important;
+    margin-bottom:0px;
+    
+  }
+  .policy{
+    margin-left:20px !important;
+    
+  }
+  .footlast{
+    margin-left:20px !important;
+  }
+  #footerlogodup{
+    height:30px !important;
+    display:block;
+    margin-left:170px;
+  }
+  #endsectionnote {
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) 
+{
+  .headnav {
+    position: relative;
+    left: 230px;
+  }
+  .dropdown {
+    margin-left: 500px;
+  }
+  .mainhead {
+    font-size: 18px;
+    margin-left: 40px;
+}
+  .card {
+    margin-left:40px;
+  }
+  .cardsection{width:200px;}
+  .card{
+    width:160px;
+    margin-left:10px;
+    
+  }
+  .cardcol{
+    width:100%;
+    overflow: hidden;
+  }
+  .card-img-top{
+    width:150px;
+    margin-left:10px;
+  }
+  .card-body {
+    width:160px;margin-left:-3px;
+  }
+  .card-text
+  {
+    width:160px;
+    font-size:12px;
+  }
+  .card-title
+  {
+    width:150px;
+    
+  }
+  #endsectionnote {
+    margin-left: 550px;
+  }
+}
+
